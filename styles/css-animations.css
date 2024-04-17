@@ -74,7 +74,7 @@
     object-fit: cover;
     opacity: 0.5;
 }
-..fading-gallery img:hover{
+.fading-gallery img:hover{
     scale: 110%;
     transition: .5s;
     opacity: 1;
