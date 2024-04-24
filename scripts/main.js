@@ -15,4 +15,9 @@ for(let i = 0; i < 51; i+=2){
 
 console.log("Task 4");
 let sum = 0;
+
+for(let i = 0; i < 101; i++) {
+    sum+= i;
+} 
+console.log(sum);
 console.log("Task 5");
