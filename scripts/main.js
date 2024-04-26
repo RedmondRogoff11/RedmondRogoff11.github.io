@@ -20,9 +20,15 @@ for(let i = 0; i < 101; i++) {
     sum+= i;
 } 
 console.log(sum);
+//TASK 5 COMPLETE (BELOW)+++++
 console.log("Task 5");
 let factorial = 1;
 for (let i = 1; i <= 10; i++) {
     factorial *= i;
     console.log(factorial);
 }
+console.log("Task 6");
+let arr = [3,1,4,1,5];
+for(let i = 0; i < 5; i++ ) {
+    console.log(arr[i]);
+};
