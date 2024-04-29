@@ -43,4 +43,21 @@ for(let i = 1; i < 11; i++ ) {
     }
     console.log(cubes)
 console.log("Task 9");
+let fib = [];
+let first = 0;
+let second = 1;
+for(let i =1; i <11; i++) {
+
+fib .push (first)
+let temp = second
+second = second + first;
+first = temp
+}
+
+console.log(fib);
+
 console.log("Task 10");
+
+let newarray = [];
+
+for(let i = 0;i < arr.length)
