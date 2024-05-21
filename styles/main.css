@@ -17,15 +17,19 @@
     font-size: 32px;
 } */
 
-.colored {
+.colored,
+.colored * {
    color : green;
 }
-.polored {
+.polored,
+.polored * {
    color : rgb(214, 214, 30)
 }
-.rolored {
+.rolored,
+.rolored * {
    color:red
 }
+
 
 a:hover {
    background-color:red;
