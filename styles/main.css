@@ -35,6 +35,21 @@ a:hover {
    background-color:burlywood;
     padding: 5px;
 }
+a:hover3 {
+   background-color:blue;
+    padding: 5px;
+    transition: 2s;
+}
+a:hover2 {
+   background-color:blue;
+    padding: 5px;
+    transition: 0.5s;
+}
+a:hover1 {
+   background-color:blue;
+    padding: 5px;
+    transition: 1s;
+}
 video {
    border: 5px burlywood;
    width: 750px;
