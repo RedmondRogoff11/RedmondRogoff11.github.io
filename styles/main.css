@@ -17,36 +17,38 @@
     font-size: 32px;
 } */
 
-.colored,
-.colored * {
+.green-text,
+.green-text * {
    color : green;
 }
-.polored,
-.polored * {
+.yellow-text,
+.yellow-text * {
    color : rgb(214, 214, 30)
 }
-.rolored,
-.rolored * {
+.red-text,
+.red-text * {
    color:red
 }
 
 
 a:hover {
-   background-color:burlywood;
     padding: 5px;
 }
-a:hover3 {
-   background-color:blue;
+.red-text:hover {
+   background-color:pink;
+   color:red;
     padding: 5px;
     transition: 2s;
 }
-a:hover2 {
-   background-color:blue;
+.yellow-text:hover {
+   background-color:lightgoldenrodyellow;
+   color:rgb(214, 214, 30);
     padding: 5px;
     transition: 0.5s;
 }
-a:hover1 {
-   background-color:blue;
+.green-text:hover {
+   background-color:lightgreen;
+   color:green;
     padding: 5px;
     transition: 1s;
 }
