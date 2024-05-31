@@ -57,15 +57,19 @@ video {
    width: 750px;
    height: auto;
 }
-.basketball:hover{
+
+
+
+.basketball{
    height:  15ms;
-   animation: spin 3s infinite linear;
-   transition: ease-in 0.5;
+   animation: spin 2s infinite linear;
+   display:inline-block;
+   
 }
 
 @keyframes spin{
    from {
-       transform: rotate(0);
+       transform: rotate(0deg);
    }
    to {
        transform: rotate(360deg);
