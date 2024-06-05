@@ -65,7 +65,3 @@ for(let i = 0; i < arr.length; i++) {
 }
 console.log(newarray);
 
-<label>Favorite NBA player</label>
-<input id = "inputBox">
-<button id = "addButton">Add</button>
-<ul id = "memorylist"></ul>
